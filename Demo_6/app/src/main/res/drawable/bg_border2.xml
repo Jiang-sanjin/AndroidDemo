@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shape="rectangle">
+
+   <!-- corners 设置圆角-->
+    <corners android:topLeftRadius="20px"
+        android:topRightRadius="5px"
+        android:bottomRightRadius="20px"
+        android:bottomLeftRadius="5px"/>
+
+    <!--stock  设置边框-->
+    <stroke android:width="4px"
+        android:color="#f0f"/>
+
+    <!--gradient 渐变背景色-->
+    <gradient android:startColor="#f00"
+        android:centerColor="#f00"
+        android:endColor="#00f"
+        android:type="sweep"/>
+
+    <padding android:top="10px" android:bottom="10px"/>
+</shape>

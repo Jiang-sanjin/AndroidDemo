@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:id="@+id/relay1"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+
+        android:id="@+id/imageview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="90dp"
+
+         />
+
+    <Button
+        android:id="@+id/stop"
+        android:onClick="stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/b_g"
+        android:textColor="@color/colorAccent1"
+        android:text="ヾ(≧▽≦*)o" />
+
+    <Button
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/b_g"
+        android:textColor="@color/colorAccent1"
+        android:text="HAPPY" />
+
+</RelativeLayout>

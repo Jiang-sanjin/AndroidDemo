@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DEMO_22</string>
+    <string-array name="school">
+        <item>清华大学</item>
+        <item>北京大学</item>
+        <item>厦门大学</item>
+        <item>南开大学</item>
+        <item>浙江大学</item>
+        <item>福州大学</item>
+        <item>上海复旦大学</item>
+    </string-array>
+    <string-array name="zhuanye">
+        <item>计算机科学与技术</item>
+        <item>英语</item>
+        <item>土木工程</item>
+        <item>电子信息</item>
+        <item>高等数学</item>
+        <item>汇编语言</item>
+    </string-array>
+    <string-array name="teacher">
+        <item>杰尼龟</item>
+        <item>妙蛙种子</item>
+        <item>小火龙</item>
+        <item>皮卡丘</item>
+        <item>木守宫</item>
+
+    </string-array>
+</resources>

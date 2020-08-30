@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/color2"
+        android:layout_weight="1"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/btn_MS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MS账号"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_blue"
+            />
+
+        <Button
+            android:id="@+id/btn_SKYPE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_MS"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_blue"
+            android:text="SKYPE账号"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/btn_DL"
+            android:layout_above="@+id/btn_SKYPE"
+            android:layout_width="match_parent"
+            android:text="登录"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="18dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_above="@+id/btn_DL"
+            android:src="@drawable/a6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/color2"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="创建账号"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/a5"
+                android:layout_marginRight="10dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/a1"
+                android:layout_marginRight="10dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/a2"
+                android:layout_marginRight="10dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/a4"
+                android:layout_marginRight="10dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/a3"
+                android:layout_height="50dp"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

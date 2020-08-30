@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:id="@+id/txt1"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="50dp"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:text="中"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_above="@id/txt1"
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:text="北"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_toLeftOf="@+id/txt1"
+        android:layout_marginRight="30dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:text="西"/>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_toRightOf="@+id/txt1"
+        android:layout_marginLeft="30dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        android:text="东"/>
+
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="南"/>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.user.demo_22.Main6Activity">
+
+    <ImageView
+        android:src="@drawable/gou"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="报名信息填写成功！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txth"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:text="报名信息填写成功！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="请牢记！！！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/shouye"
+        android:layout_marginTop="120dp"
+        android:text="返回首页"
+        android:background="@drawable/bg"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+
+
+</LinearLayout>

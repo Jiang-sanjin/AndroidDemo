@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/n1"
+    tools:context=".Main2Activity">
+
+<!--    标题以及计算区域-->
+    <LinearLayout
+        android:background="@drawable/k1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true">
+        <com.example.demo_no9_app20.CustomsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="计算器"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:enabled="true"
+            android:textAlignment="textEnd"
+            android:textSize="30sp"
+            android:background="@null"/>
+    </LinearLayout>
+<!--    标题以及计算区域-->
+
+
+<!--     c   /    *   del   按键-->
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnbg"
+            android:text="C"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_divide"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnbg"
+            android:text="/"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_times"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btnbg"
+            android:text="*"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_delete"
+            android:background="@drawable/btnbg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:text="DEL"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+<!--     c   /    *   del   按键-->
+
+
+
+<!--    7  8  9  -   按键-->
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnbg2"
+            android:text="7"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btnbg2"
+            android:layout_weight="1"
+            android:text="8"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnbg2"
+            android:text="9"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btnbg3"
+            android:layout_weight="1"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+ <!--    7  8  9  -   按键-->
+
+
+<!--    4   5  6   +   按键-->
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnbg2"
+            android:text="4"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnbg2"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnbg2"
+            android:text="6"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/btnbg3"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+<!--    4   5  6   +   按键-->
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:weightSum="4">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+<!--           1   2   3   按键-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnbg2"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnbg2"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnbg2"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+<!--     1   2   3   按键-->
+
+
+<!--            %    0    .  按键-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_remainder"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="%"
+                    android:textAlignment="center"
+                    android:background="@drawable/btnbg2"
+                    android:layout_weight="1"
+
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/btn_0"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:background="@drawable/btnbg2"
+                    android:layout_weight="1"
+
+                    android:textSize="20sp"/>
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/btn_point"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btnbg2"
+                    android:text="."
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+<!--            %    0    .  按键-->
+
+        </LinearLayout>
+
+
+<!--        =   按键-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+
+            >
+
+            <Button
+                android:id="@+id/btn_equal"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btnbg3"
+                android:text="="
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+<!--       =   按键-->
+    </LinearLayout>
+</LinearLayout>

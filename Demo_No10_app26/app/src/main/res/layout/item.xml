@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="1dp"
+    app:cardBackgroundColor="#33FFC0CB"
+
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    >
+    <RelativeLayout
+        android:layout_gravity="center"
+
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_num"
+            android:background="@drawable/a1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="姓名："
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/item_num"
+            android:layout_marginLeft="20dp"
+            android:singleLine="true"
+            />
+
+        <TextView
+
+            android:id="@+id/item_phone_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="sanjin"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/item_name"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            />
+        <TextView
+            android:layout_toRightOf="@id/item_num"
+            android:layout_below="@id/item_name"
+            android:id="@+id/item_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="电话："
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="20dp"
+            android:singleLine="true"
+            />
+        <TextView
+
+            android:layout_below="@id/item_name"
+            android:id="@+id/item_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="123456"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/item_name"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

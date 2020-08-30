@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/i"
+    tools:context=".Main5Activity">
+    <TextView
+        android:textSize="40dp"
+        android:textColor="@color/pink"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:text="欢迎进入"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:text="成人报名系统"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/jiayou"
+        android:scaleType="fitXY"
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+</LinearLayout>

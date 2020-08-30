@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/s1"
+    android:orientation="vertical">
+
+
+    <com.example.demo_no8_app17.MyCalendarView
+        android:id="@+id/mycalendrview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"></com.example.demo_no8_app17.MyCalendarView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="@drawable/btnbg"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="当前时间" />
+
+</LinearLayout>
